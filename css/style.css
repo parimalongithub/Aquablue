@@ -632,6 +632,19 @@ body{
     box-shadow: 0px 0px 10px 0px #666;
 }
 
+/* Responsive Styles */
+@media only screen and (max-width: 768px) {
+    .contact-in {
+        width: 80%; /* Adjust width for smaller screens */
+    }
+}
+
+@media only screen and (max-width: 480px) {
+    .contact-in {
+        width: 90%; /* Further adjust width for even smaller screens */
+    }
+}
+
 .dbox {
     width: auto;
     margin-top: 25px;
